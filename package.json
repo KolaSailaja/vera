@@ -1,0 +1,33 @@
+{
+  "name": "vera",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "npx tsx --test src/__tests__/ingestion.test.ts src/__tests__/confidence-engine.test.ts src/__tests__/comparison.test.ts src/__tests__/integration-and-decision.test.ts src/__tests__/sample-scenarios.test.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "drizzle-orm": "^0.38.4",
+    "lucide-react": "^0.475.0",
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.1",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/uuid": "^10.0.0",
+    "drizzle-kit": "^0.30.4",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.1.7",
+    "typescript": "^5.0.0"
+  }
+}
